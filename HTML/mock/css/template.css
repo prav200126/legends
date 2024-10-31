@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    position: 0;
+    box-sizing: border-box;
+}
+/* #body{
+    background-color: olive;
+} */
+#half1{
+    position: absolute;
+    width: 55%;
+    height: 650px;
+    background-color: brown;
+}
+#half2{
+    position:absolute;
+    width: 45%;
+    height: 650px;
+    background-color:teal;
+    right: 0px;
+}
+#hire{
+    color: white;
+    position: absolute;
+    
+    top: 20%;
+    left: 10%;
+    
+
+    
+}
+#btn1{
+    background-color: goldenrod;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+#btn2{
+    width: 200px;
+    height: 40px;
+}
+/* button:hover{
+    background: transparent;
+    border: 1px solid orangered;
+    color: orangered;
+} */
+#category{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: brown;
+    top: 1250px;
+}
+#about{
+    position: absolute;
+    color: black;
+    top: 2250px;
+    left: 35%;
+
+}
+#abt1{
+    position: absolute;
+    top: 2300px;
+    width: 1100px;
+    font-size: 20px;
+    left: 15%;
+    justify-content:space-around;
+    display: flex;
+    
+   
+}
+#btn4{
+    position: absolute;
+    top: 2430px;
+    left: 44%;
+    background-color: goldenrod;
+    width: 150px; height: 40px;
+    color: white;
+}
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#icons{
+    position: absolute;
+    left: 1050px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    top: 30px;
+    width: 20%;
+
+
+}
+#content{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+}
+a{
+    color:#fff;
+    font-size: 20px;
+    font-family: Arial ;
+    text-decoration: none;
+
+}
+ #info{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    position: absolute;
+ }
+ #info>#home{
+    list-style: none;
+    position: absolute;
+    font-family: Arial;
+    top: 150px ;
+    left: 60px;
+
+ }
+#info1 {
+    position: absolute;
+    font-family: arial;
+    left: 400px ;
+    top: 150px;
+    width: 200px;
+    list-style: none;
+    text-decoration: none;
+color: white;
+}
+#info2{
+    position: absolute;
+    font-family: arial;
+    left: 675px ;
+    top: 150px;
+    width: 200px;
+    list-style: none;
+    text-decoration: none;
+color: white;
+}
+#hi1{
+    position: absolute;
+    top: 150px;
+    left: 1035px;
+
+}
+#hi2{
+    position: absolute;
+    top: 200px;
+    left: 1035px;
+}
+#icon1{
+    display: flex;
+    position: absolute;
+    justify-content:space-between;
+    width: 60%;
+    top: 400px;
+    left: 250px;
+
+}
+
+ 

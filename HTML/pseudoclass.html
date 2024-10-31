@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclass in css</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #link{
+            height: 300px;
+            width: 300px;
+            background-image: url(animal1);;
+            margin: 200px auto;
+            margin: 200px auto;
+            display: flex;
+             align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: background-color 10s linear 0.1ms, border-radius 5s linear  0.1s, transform 10s linear 1s;
+            box-shadow: 2px 2px 20px white;
+        }       
+        #link:hover{
+            background-color: goldenrod;
+            border-radius: 50%;
+            transform: 360deg;
+            transform: translateX(200px);
+        }
+    
+         body{
+            background-color: blueviolet;
+        }
+        a:visited{
+            color: hotpink;
+        }
+        a:link{
+            color: blue;
+
+        }
+        a:hover{
+            color: aquamarine;
+        }
+        a:active{
+            color: chartreuse;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pseudoclasses</h1>
+    <div id="link"><a href="https://www.google.com" style="text-decoration: none; color: aliceblue; font-size: 50px;">Link</a></div>
+</body>
+</html>

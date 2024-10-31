@@ -1,0 +1,51 @@
+body{
+    background-color: greenyellow;
+}
+*{
+    margin: 0;
+}
+#position{
+    height: 80vh;
+    width: 70vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 100px 0px 0px 100px;
+    position: relative;
+    border: 10px;
+}
+#relative{
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    position: relative;
+    top: 100px;
+    
+}
+#absolute{
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#fixed{
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    position: fixed;
+    top: 250px;
+    left:100px;
+}
+#sticky{
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    position: sticky;
+    top: 0;
+    
+}
+

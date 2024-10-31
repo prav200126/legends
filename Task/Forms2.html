@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            color: white;
+        }
+    </style>
+     
+</head>
+ 
+<body style="background-color:aqua ;">
+    <form action="">
+        <center><h1>
+            <u style="color:blue;">Student Registration Form</u>
+        </h1>  </center>
+        <fieldset style="background-color: purple;">
+        <table>
+           
+            <tr>
+                <td><label for="fn">First name</label>  </td>
+                <td><input type="text" id="fn" required placeholder="Enter First name"> (max 30 characters a-z and A-Z) </td>
+            </tr> 
+
+            <tr>
+                <td><label for="ln">Last Name</label></td>
+                <td><input type="text" id="ln" required placeholder="Enter last Name"> (max 30 characters a-z and A-Z)</td>
+            </tr>
+
+            <tr>
+                <td><label for="dob"> Date of Birth</label></td>
+                <td> <select name="" id="dob"> 
+                    <option value="">Date</option>
+                    <option value="">01</option>
+                    <option value="">02</option>
+                    <option value="">03 </option>
+                    <option value="">04</option>
+                    <option value="">05</option>
+                    <option value="">06</option>
+                    <option value="">07</option>
+                    <option value="">08</option>
+                    <option value="">09</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                </select>
+                <select name="" id="dob">
+                    <option value="">Month</option>
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">May</option>
+                    <option value="">Apr</option>
+                    <option value="">May</option>
+                    <option value="">Jun</option>
+                    <option value="">Jul</option>
+                    <option value="">Aug</option>
+                    <option value="">Sep</option>
+                    <option value="">Oct</option>
+                    <option value="">Nov</option>
+                    <option value="">Dec</option>
+                </select>
+
+                <select name="" id="dob">
+                    <option value="">Year</option>
+                    <option value="">2004</option>
+                    <option value="">2003</option>
+                    <option value="">2002</option>
+                    <option value="">2001</option>
+                    <option value="">2000</option>
+                    <option value="">1999</option>
+                    <option value="">1998</option>
+                    <option value="">1997</option>
+                    <option value="">1996</option>
+                    <option value="">1995</option>
+                </select>
+            </td>
+            </tr>
+
+            <tr>
+                <td><label for="el">Email ID</label></td>
+                <td>  <input type="text"  id="el" placeholder="Email" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="mn">Mobile Number</label></td>
+                <td> <input type="text" required placeholder="ph no" id="mn"> (Max 10 Digits)</td>
+            </tr>
+            
+            <tr>
+                <td><label for="gr">Gender</label></td>
+                <td>
+                    Male <input type="radio" name="Gender" required id="gr" >
+                    Female <input type="radio" name="Gender" required id="gr">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="ad">Address</label></td>
+                <td><textarea name="" id="ad" required placeholder="Adress"></textarea></td>
+            </tr>
+
+            <tr>
+                <td aria-label="pn">city</td>
+                <td>  <input type="text"  required id="pn"></td>
+            </tr>
+
+            <tr>
+                <td><label for="pi"></label>Pincode</td>
+                <td><input type="text" id="pi" required> (max 6 digits)</td>
+            </tr>
+
+            <tr>
+                <td>State</td>
+                <td><select name="" id="">
+                    <option value="">Maharastra</option>
+                    <option value="">Tamilnadu</option>
+                    <option value="">Assam</option>
+                    <option value="">Madyapradesh</option>
+                    <option value="" selected>State</option> 
+                <option value="">Karnatak</option>
+                <option value="">Kerala</option>
+                <option value="">Goa</option>
+                <option value="">Andra Pradesh</option></select></td>
+            </tr>
+
+            <tr>
+                <td>Country</td>
+                <td><select name="" id="">
+                    <option value="">Country</option>
+                    <option value="">India</option>
+                    <option value="">Pakistan</option>
+                    <option value="">Thailand</option>
+                    <option value="">Bangladesh</option>
+                    <option value="">China</option>
+                    <option value="">Russia</option>
+                    <option value="">Uk</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Qualification</label></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Sl.no</td>
+                            <td><center>Examination </center> 
+                            </td>
+                             <td><center>Board</center></td>  
+                            <td><center>Percentage</center></td>
+                            <td><center>Year of Passing</center></td>
+                        </tr>
+                        <tr>
+                           <td>1</td>
+                           <td>Class X</td>
+                           <td><input type="text"></td>
+                           <td><input type="text"></td>
+                           <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text"></td>
+                            <td><input type=""></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>(max 10 Character)</td>
+                            <td>(upto 2 decimal)</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="ur">Course  <br> Applied for</label></td>
+                <td>
+                    BCA<input type="radio" name="Course" id="ur"> 
+                B.Com<input type="radio" name="Course" id="ur">
+                B.Sc<input type="radio" name="Course" id="ur">
+                B.E<input type="radio" name="Course" id="ur"></td>
+
+            </tr>
+             
+        
+            
+         
+     </table>   
+    <center><button>Submit</button>
+     <button>Reset</button></center> 
+    </fieldset>
+        
+    </form>
+</body>
+</html>
